@@ -20,8 +20,8 @@ const settings = {
             ["About Us", "/about-us/"]
           ],
           featured: {
-            showOnList: false,
-            showOnPost: false
+            showOnList: true,
+            showOnPost: true
           }
         }
       }
@@ -30,7 +30,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "https://zmktechsol.com/wp-json"
+          api: "https://test.frontity.org/wp-json"
         }
       }
     },
